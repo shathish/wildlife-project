@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Project</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f1f1f1;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .animal img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .animal p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Wildlife Project</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#tiger">Tiger</a>
+        <a href="#deer">Deer</a>
+        <a href="#elephant">Elephant</a>
+        <a href="#about">About</a>
+    </nav>
+    <main>
+        <div id="home" class="container home">
+            <h1>Explore the Wildlife</h1>
+            <p>Welcome to our project where we discuss fascinating facts about Tigers, Deer, and Elephants. Navigate using the links above to learn more!</p>
+        </div>
+
+        <div id="tiger" class="container animal">
+            <h2>About Tigers</h2>
+            <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a" alt="Tiger">
+            <p>Tigers are the largest wild cats in the world. They are known for their beautiful striped coats and are apex predators in their habitats.</p>
+        </div>
+
+        <div id="deer" class="container animal">
+            <h2>About Deer</h2>
+            <img src="https://images.unsplash.com/photo-1525253086316-d0c936c814f8" alt="Deer">
+            <p>Deer are graceful herbivores commonly found in forests and grasslands. They are known for their speed and agility.</p>
+        </div>
+
+        <div id="elephant" class="container animal">
+            <h2>About Elephants</h2>
+            <img src="https://images.unsplash.com/photo-1518933165971-611dbc9c412d" alt="Elephant">
+            <p>Elephants are the largest land mammals on Earth. They are highly intelligent and have a strong social structure within their herds.</p>
+        </div>
+
+        <div id="about" class="container">
+            <h2>About This Project</h2>
+            <p>This project was created as a school assignment to explore the beauty of wildlife. Each page highlights a specific animal, providing key facts and images to make learning fun and engaging.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Wildlife Project | Created for School</p>
+    </footer>
+</body>
+</html>
